@@ -1,7 +1,7 @@
 # Importar todo lo necesario
+from collections import deque
 from tkinter import *
 from tkinter import messagebox as tkMessageBox
-from collections import deque
 import random
 import platform
 from datetime import datetime
