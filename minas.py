@@ -58,7 +58,7 @@ class Buscaminas:
         self.marco.pack()
 
         # Configurar etiquetas
-        self.etiquetas = 
+        self.etiquetas = {
             "tiempo": Label(self.marco, text = "00:00:00"),
             "minas": Label(self.marco, text = "Minas: 0"),
             "banderas": Label(self.marco, text = "Banderas: 0")
